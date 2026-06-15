@@ -21,7 +21,10 @@ The purpose of this project is to investigate whether the sector of a loan influ
 Research Question
 ===================================================================
 
+
 Does the loan sector affect funding success on Kiva?
+
+
 Kiva is a global crowdfunding platform that connects lenders with borrowers from different countries around the world. Borrowers request loans for a variety of purposes, including agriculture, retail, education, food businesses, housing, and other economic activities.
 
 Different loan sectors may attract different levels of interest from lenders. Understanding these differences can provide insights into funding behavior and help identify factors associated with successful fundraising.
