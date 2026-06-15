@@ -4,9 +4,9 @@ Data Science for Good: Kiva Crowdfunding
 
 Final Project in Introduction to Data Science and Data Analysis in R
 
-================
 
 Team Members - Shahd Khalil, Walaa Abu Shiban, Shaden Zoabi and Mariam Zedan
+===================================
 
 This markdown file describes the project structure and organization.
 
@@ -17,8 +17,9 @@ The Kiva platform is a global crowdfunding system that connects lenders with bor
 Different loan sectors may attract different levels of interest from lenders. Understanding these differences can provide insights into funding behavior and help identify factors associated with successful fundraising.
 
 The purpose of this project is to investigate whether the sector of a loan influences its funding success on the Kiva platform.
-===================================================================
+
 Research Question
+===================================================================
 
 Does the loan sector affect funding success on Kiva?
 Kiva is a global crowdfunding platform that connects lenders with borrowers from different countries around the world. Borrowers request loans for a variety of purposes, including agriculture, retail, education, food businesses, housing, and other economic activities.
@@ -26,8 +27,9 @@ Kiva is a global crowdfunding platform that connects lenders with borrowers from
 Different loan sectors may attract different levels of interest from lenders. Understanding these differences can provide insights into funding behavior and help identify factors associated with successful fundraising.
 
 The purpose of this project is to investigate whether the sector of a loan influences its funding success on the Kiva platform.
-=================================================================
+
 Data Description
+=================================================================
 
 The analysis is based on the Kiva Loans dataset obtained from Kaggle.
 
@@ -62,6 +64,8 @@ term_in_months:the repayment period of the loan in months.
 
 repayment_interval:the repayment schedule of the loan.
 
+
+Project Goal
 ===============================================================
 The goal of this project is to examine whether different loan sectors are associated with different levels of funding success.
 
