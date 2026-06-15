@@ -17,11 +17,16 @@ The Kiva platform is a global crowdfunding system that connects lenders with bor
 Different loan sectors may attract different levels of interest from lenders. Understanding these differences can provide insights into funding behavior and help identify factors associated with successful fundraising.
 
 The purpose of this project is to investigate whether the sector of a loan influences its funding success on the Kiva platform.
-
+===================================================================
 Research Question
 
 Does the loan sector affect funding success on Kiva?
+Kiva is a global crowdfunding platform that connects lenders with borrowers from different countries around the world. Borrowers request loans for a variety of purposes, including agriculture, retail, education, food businesses, housing, and other economic activities.
 
+Different loan sectors may attract different levels of interest from lenders. Understanding these differences can provide insights into funding behavior and help identify factors associated with successful fundraising.
+
+The purpose of this project is to investigate whether the sector of a loan influences its funding success on the Kiva platform.
+=================================================================
 Data Description
 
 The analysis is based on the Kiva Loans dataset obtained from Kaggle.
@@ -30,85 +35,34 @@ Each row in the dataset represents a single loan request published on the Kiva p
 
 The dataset contains information regarding loan characteristics, borrower information, funding outcomes, and lender participation.
 
+
 Data Feature List (Relevant Features)
-sector
+==========================================================
+sector:the general category of the loan,this is the primary variable used in the analysis.
 
-This field represents the general category of the loan.
 
-Examples:
+funded_amount:the amount of money successfully raised for the loan.
 
-Agriculture
-Food
-Retail
-Education
-Services
-Housing
+loan_amount:the total amount requested by the borrower.
 
-This is the primary explanatory variable used in the analysis.
+activity:the specific business activity associated with the loan.
 
-funded_amount
+country:the country in which the borrower is located.
 
-This field indicates the amount of money successfully raised for the loan.
 
-Continuous numeric variable.
+region:the local region or city of the borrower.
 
-loan_amount
 
-This field indicates the total amount requested by the borrower.
+lender_count:the number of lenders who contributed to the loan.
 
-Continuous numeric variable.
 
-activity
+borrower_genders:the gender of the borrower or borrowers.
 
-This field represents the specific business activity associated with the loan.
+term_in_months:the repayment period of the loan in months.
 
-Examples:
+repayment_interval:the repayment schedule of the loan.
 
-Farming
-Clothing Sales
-Grocery Store
-Food Production
-country
-
-This field indicates the country in which the borrower is located.
-
-region
-
-This field indicates the borrower's local region or city.
-
-lender_count
-
-This field indicates the number of lenders who contributed to the loan.
-
-Continuous numeric variable.
-
-borrower_genders
-
-This field contains the gender of the borrower or borrowers.
-
-Examples:
-
-female
-male
-female, female
-male, male
-term_in_months
-
-This field indicates the repayment period of the loan in months.
-
-Continuous numeric variable.
-
-repayment_interval
-
-This field indicates the repayment schedule of the loan.
-
-Possible values include:
-
-Monthly
-Irregular
-Bullet
-Project Goal
-
+===============================================================
 The goal of this project is to examine whether different loan sectors are associated with different levels of funding success.
 
 The analysis includes:
