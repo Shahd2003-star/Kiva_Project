@@ -1,12 +1,12 @@
 # Kiva_Project
 Final project in Data Analysis using Kiva dataset.
-Team Members:
+##Team Members:
 Shahd Khalil
 Shaden Zoabi
 Mariam Zedan
 Walaa Abu Shiban
 ---------------------------------------------------------
-Research Question
+##Research Question
 Does the loan sector affect funding success on Kiva?
 Kiva is a global crowdfunding platform that connects lenders with borrowers from different countries around the world. Borrowers request loans for a variety of purposes, including agriculture, retail, education, food businesses, housing, and other economic activities.
 
@@ -14,14 +14,14 @@ Different loan sectors may attract different levels of interest from lenders. Un
 
 The purpose of this project is to investigate whether the sector of a loan influences its funding success on the Kiva platform.
 ------------------------------------------------
-Data Description
+##Data Description
 The analysis is based on the Kiva Loans dataset obtained from Kaggle.
 
 To reproduce the analysis, download the Kiva dataset and place the file kiva_loans.csv in the project directory. Then run the R scripts included in this repository.
 
 Each row in the dataset represents a single loan request published on the Kiva platform.
 -----------------------------------------------------------------------
-Relevant Features
+##Relevant Features
 sector :the general category of the loan,this is the primary variable used in the analysis.
 
 funded_amount:the amount of money successfully raised for the loan.
@@ -42,7 +42,7 @@ term_in_months:the repayment period of the loan in months.
 
 repayment_interval:the repayment schedule of the loan.
 ------------------------------------------------
-Project Goal
+##Project Goal
 
 The goal of this project is to examine whether different loan sectors are associated with different levels of funding success.
 
